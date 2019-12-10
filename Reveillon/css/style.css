@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes wallpaper{
+
+    0%{
+        background-image: url(../img/inicio.jpg);
+    }
+    100%{
+        background-image: url(../img/meio.jpg);
+    }
+}
+
+section{
+    width: 300px;
+    height: 250px;
+    background-image: url(../img/meio.jpg);
+    
+    animation: wallpaper 1s infinite alternate-reverse;
+}
+
+.h1Class{
+    font-family: 'Dancing Script', cursive;
+    color: #bda96b;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 22px ;
+}
