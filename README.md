@@ -1,2 +1,10 @@
 # Banners de 300x250
-Montar banners animados para demonstrar os conhecimentos em HTML5, CSS3 e JavaScript/jQuery 
+
+Desenvolver animações para banners com conceitos básicos de CSS3, HTML5 e JavaScript/jQuery.
+
+
+# Objetivo:
+Praticar á criatividade e animações.
+
+# Editores:
+- VSCode
