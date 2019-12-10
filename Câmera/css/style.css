@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 300px;
+    height: 250px;
+    background-color: #6A5ACD;
+}
+
+.camera{
+	display: block;
+	width: 180px;
+	height: 150px;
+	background-color: #696969;
+	border-radius: 22px;
+    position: absolute;
+    margin: 10px 50px 30px 60px;
+}
+
+.camera:before{
+	content: "";
+	background-color: #A9A9A9;
+	width: 15px;
+	height: 15px;
+	border-radius: 28px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.camera:after{
+	content: "";
+	background-color: #D3D3D3;
+	width: 33px;
+	height: 15px;
+	border-radius: 10px;
+	position: absolute;
+	top: 18px;
+	right: 18px;
+}
+
+.baixo{
+	width: 180px;
+	height: 65px;
+	display: block;
+	z-index: 10;
+	background-color: #363636;
+	border-radius: 0 0 22px 22px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top:15px solid #1C1C1C;
+	box-shadow: inset 0 -20px 0 0 #4F4F4F;
+}
+
+.baixo:before{
+	content: "";
+	background-color: #000000;
+	width: 100px;
+	height: 10px;
+	display: block;
+	margin: 8px auto 0 auto;
+}
+
+.baixo:after{
+	content: "";
+	position: absolute;
+	top: 18px;
+	left: 42px;
+	width: 96px;
+	height: 60px;
+	display: block;
+	background-color: #DCDCDC;
+}
+
+/*Animação do Filme Saído*/
+
+.baixo:after{
+    animation: liguaSaidoEntrado 3s infinite 3s;
+  }
+  
+  @keyframes liguaSaidoEntrado {
+    0% {
+      opacity: 0;
+      height: 0;
+      border: 0;
+    }
+  
+    25%, 50%{
+      opacity: 1;
+      border: 0;
+      height: 0;
+    }
+  
+    55% {
+      opacity: 1;
+      height: 40px;
+      border-top-width: 15px;
+      border-bottom-width: 12px;
+    }
+  
+    75% {
+      opacity: 1;
+      height: 50px;
+      border-top-width: 15px;
+      border-bottom-width: 12px;
+    }
+  
+    100% {
+      opacity: 0;
+      height: 0;
+      border: 0;
+    }
+  }  
+
+.olho{
+	width: 10px;
+	height: 10px;
+	border-radius: 30px;
+	background-color: #778899;
+	display: block;
+	margin: 65px auto;
+	z-index: 30;
+	position: relative;
+    box-shadow:	0	0	0   15px	#3e5489,
+						0 	0 		0 	25px 	#1c3666,
+						0 	0 		0 	35px 	#ecf0f1,
+						0 	0	    0 	40px 	rgba(0,0,0,0.3);
+}
+
+h3{
+    font-size: 20px;
+    color: #ecf0f1;
+    text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+    animation: animationText 3s infinite alternate-reverse;
+}
+
+/*Titulo Animado*/
+@keyframes animationText{
+	0%{
+        color: #ecf0f1;
+    }
+    50%{
+        color: #D3D3D3;
+    } 
+    75%{
+        color:#1c3666;
+    }
+    100%{
+        color: #ecf0f1;
+    }
+} 
