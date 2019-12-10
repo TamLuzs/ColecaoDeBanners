@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Animações*/
+@keyframes animationText{
+	0%{
+        color: #F8B1C1;
+    }
+    50%{
+        color: #62C8A5;
+    } 
+    75%{
+        color:#e0b0ff;
+    }
+    100%{
+        color: #F0F4C1;
+    }
+} 
+
+@keyframes animationMovimentoBaloes{
+    0%{
+        transform: translateY(0) rotate(-9deg);
+    }
+    50% {
+        transform: translateY(-40px) rotate(7deg);
+    }
+    75%{
+        transform: translateY(-20) rotate(5deg);
+    }
+    100%{
+        transform: translateY(10) rotate(16deg);
+    }
+}
+
+
+body{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCC;
+}
+
+section{
+    background-image: url(wallpaper.jpg);
+    width: 300px;
+    height: 250px;
+}
+
+
+h1{
+	font-family: 'Concert One', cursive;
+	font-size: 22px; 
+	text-transform: uppercase;
+	letter-spacing: 1px; 
+	text-align: center;
+	padding-top: 180px; 
+    color: #F8B1C1;
+    
+	animation: animationText 3s infinite alternate-reverse;
+}
+
+.baloes{
+  position:absolute;
+  top: 100px; 
+  margin-left: 5px;
+  margin-right: 35px;
+}
+
+.balao1, .balao2, .balao3, .balao4, .balao5{
+  display: inline-block;
+  width: 55px;
+  height: 80px;
+  position: relative;
+  border-radius: 100%;
+
+  animation: animationMovimentoBaloes 3s infinite;
+}
+
+.balao1{
+	background: #F8B1C1;
+	animation-direction: reverse;  
+}
+
+.balao2{
+	background: #B0E7C6; 
+	animation-direction: alternate;
+}
+
+.balao3{
+	background: #94DAF0; 
+	animation-direction: alternate-reverse; 
+}
+
+.balao4{
+	background: #F0F4C1; 
+	animation-direction: reverse;  
+}
+
+.balao5{
+	background: #e0b0ff; 
+	animation-direction: alternate;
+}
+
+/* Criando o bico do Balão */
+.balao1:before {
+  content: "▲";
+  font-size: 20px;
+  color: #F8B1C1; 
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -12px;
+}
+
+
+.balao2:before {
+  content: "▲";
+  font-size: 20px;
+  color: #B0E7C6; 
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -12px;
+}
+
+
+.balao3:before {
+  content: "▲";
+  font-size: 20px;
+  color: #94DAF0; 
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -12px;
+}
+
+
+.balao4:before {
+  content: "▲";
+  font-size: 20px;
+  color: #F0F4C1;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -12px;
+}
+
+
+.balao5:before {
+  content: "▲";
+  font-size: 20px;
+  color: #e0b0ff; 
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -12px;
+}
