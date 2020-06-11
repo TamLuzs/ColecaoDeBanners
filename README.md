@@ -1,5 +1,4 @@
 # BANNERS ESTÁTICOS E DINÂMICOS
-------------
 
 ### Objetivo:
 Praticar á criatividade e desenvolvimento contínuo de peças digitais.
