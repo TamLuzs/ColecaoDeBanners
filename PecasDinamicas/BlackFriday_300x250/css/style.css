@@ -1,0 +1,30 @@
+* {
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+section {
+	background-image: url(../img/wallpaper.png);
+	width: 299px;
+	height:249px;
+	border: 1px solid black;
+}
+
+h1 {
+	color: #6e6e6e;
+	text-align: justify;
+	font-size: 60px;
+	display: inline-block;
+	font-family: 'Luckiest Guy';
+}
+
+#lineLeft {
+	padding-top: 13px;
+	padding-left: 35px;
+}
+
+#lineRight {
+	line-height: 0.5em;
+	padding-right: 13px;
+	padding-left: 98px;
+}

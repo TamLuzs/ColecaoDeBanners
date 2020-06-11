@@ -1,0 +1,49 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#wallpaper {
+	width:	299px;
+	height:	249px;
+	border: 1px solid #000;
+	position: absolute;
+	z-index: 0;
+}
+
+#logo {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+    z-index: 3;
+    font-size: 20px;
+    text-transform: uppercase;
+	color: #D5CACE;
+	animation: animationLogo 5s 4s ease infinite; 
+}
+
+
+@keyframes animationLogo {
+
+	0% {
+		margin: 0;
+        opacity: 0;
+        text-decoration: transparent;
+    }
+    
+	50% {
+		margin-top: 75px;
+		margin-left: 85px;
+		opacity: 1;
+		font-size: 35px;
+	}
+	
+	100%{
+		margin-top: 65px;
+		margin-left: 55px;
+		opacity: 1;
+		font-size: 45px;
+	}
+    
+}
