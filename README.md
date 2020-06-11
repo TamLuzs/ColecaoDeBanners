@@ -1,8 +1,6 @@
 # BANNERS ESTÁTICOS E DINÂMICOS
 ------------
 
-<!-- IMAGEM DE REFERENCIA  --> 
-
 ### Objetivo:
 Praticar á criatividade e desenvolvimento contínuo de peças digitais.
 
@@ -19,5 +17,5 @@ Praticar á criatividade e desenvolvimento contínuo de peças digitais.
 - VSCode.
 
 #### Base de Apoio:
-- Curso da Plataforma Udemy, sendo: Design Gráfico Completo - 9 Cursos do Zero ao Avançado.
+- Curso da Udemy: Design Gráfico Completo - 9 Cursos do Zero ao Avançado.
 - Forúm de Tecnologia. 
