@@ -1,5 +1,3 @@
-<!-- Descrição: Diversos banners estáticos e dinâmicos desenvolvido com HTML5, CSS3, JavaScript, Animation, GreenSock, Photoshop, Illustratir e XD.  -->
-
 # BANNERS ESTÁTICOS E DINÂMICOS
 ------------
 
